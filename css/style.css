@@ -1,0 +1,41 @@
+
+/* start box definitions*/
+*{
+    box-sizing:border-box;
+}
+
+[class*="col"] {
+    float:left;
+    /*padding: 15 pxl; */
+}
+
+.row::after{
+    content:"";
+    clear:both;
+    display:block;
+}
+
+div{ 
+    border: double red;
+}
+/* end box definition*/ 
+
+/* start styling*/ 
+body {
+    background-image: url(../images/background.webp);
+    font-family: "Roboto", sans-serif ;
+    font-weight: bold;
+    color: black;
+}
+
+h1, h2 {
+    font-family: "Oswald", sans-serif;
+      color:#5f0f0fd2;
+      text-shadow: 3px 3px 3px #3f04027e;
+      font-style:oblique;
+    }
+
+legend, fieldset {
+    color: #090979;
+}
+
